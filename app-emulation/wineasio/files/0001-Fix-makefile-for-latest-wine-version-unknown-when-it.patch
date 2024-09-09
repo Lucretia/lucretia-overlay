@@ -1,0 +1,39 @@
+From e679368ba3e20c57404f01ea7995efec851cb9b6 Mon Sep 17 00:00:00 2001
+From: "Luke A. Guest" <laguest@archeia.com>
+Date: Wed, 25 Jan 2023 16:38:09 +0000
+Subject: [PATCH] Fix makefile for latest wine version, unknown when it broke.
+
+---
+ Makefile.mk | 16 ++++++++--------
+ 1 file changed, 8 insertions(+), 8 deletions(-)
+
+diff --git a/Makefile.mk b/Makefile.mk
+index 63b38e2..bfd74d7 100644
+--- a/Makefile.mk
++++ b/Makefile.mk
+@@ -32,14 +32,14 @@ CEXTRA               += -Werror=implicit-function-declaration
+ CEXTRA               += $(shell pkg-config --cflags jack)
+ RCEXTRA               =
+ INCLUDE_PATH          = -I. -Irtaudio/include
+-INCLUDE_PATH         += -I$(PREFIX)/include/wine
+-INCLUDE_PATH         += -I$(PREFIX)/include/wine/windows
+-INCLUDE_PATH         += -I$(PREFIX)/include/wine-development
+-INCLUDE_PATH         += -I$(PREFIX)/include/wine-development/wine/windows
+-INCLUDE_PATH         += -I/opt/wine-stable/include
+-INCLUDE_PATH         += -I/opt/wine-stable/include/wine/windows
+-INCLUDE_PATH         += -I/opt/wine-staging/include
+-INCLUDE_PATH         += -I/opt/wine-staging/include/wine/windows
++INCLUDE_PATH         += -I$(PREFIX)/include/wine/wine
++INCLUDE_PATH         += -I$(PREFIX)/include/wine/wine/windows
++#INCLUDE_PATH         += -I$(PREFIX)/include/wine-development
++#INCLUDE_PATH         += -I$(PREFIX)/include/wine-development/wine/windows
++#INCLUDE_PATH         += -I/opt/wine-stable/include
++#INCLUDE_PATH         += -I/opt/wine-stable/include/wine/windows
++#INCLUDE_PATH         += -I/opt/wine-staging/include
++#INCLUDE_PATH         += -I/opt/wine-staging/include/wine/windows
+ LIBRARIES             = $(shell pkg-config --libs jack)
+ 
+ # 64bit build needs an extra flag
+-- 
+2.39.1
+
