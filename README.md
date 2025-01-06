@@ -15,3 +15,6 @@ I list here where I got the original ebuild's from, they may have change signifi
 * media-sound/
   * ardour (+vst)
     * [8.6-r2](./media-sound/ardour/ardour-8.6-r2.ebuild)
+* media-video/
+  * [davinci-resolve](https://bugs.gentoo.org/718070)
+    * [19.1.2](./media-video/davinci-resolve/davinci-resolve-19.1.2.ebuild)
