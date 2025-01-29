@@ -17,6 +17,8 @@ I list here where I got the original ebuild's from, they may have change signifi
 * media-video/
   * [davinci-resolve](https://bugs.gentoo.org/718070)
     * [19.1.2](./media-video/davinci-resolve/davinci-resolve-19.1.2.ebuild)
+    * [19.1.3](./media-video/davinci-resolve/davinci-resolve-19.1.3.ebuild)
+      * See [Gentoo Bug](https://bugs.gentoo.org/718070).
 * net-misc/
   * [megasync-bin](https://mega.io/desktop#download)
     * [5.6.1](./net-misc/megasync-bin/megasync-bin-5.6.1.ebuild)
