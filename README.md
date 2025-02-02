@@ -23,3 +23,6 @@ I list here where I got the original ebuild's from, they may have change signifi
   * [megasync-bin](https://mega.io/desktop#download)
     * [5.6.1](./net-misc/megasync-bin/megasync-bin-5.6.1.ebuild)
       * I built this from the Ubuntu binary, because the gentoo source build isn't working properly.
+* x11-drivers/
+  * [OpenTabletDriver](https://wiki.gentoo.org/wiki/Project:GURU)
+    * [0.6.5.0-r1](./x11-drivers/OpenTabletDriver/OpenTabletDriver-0.6.5.0-r1.ebuild)
