@@ -29,3 +29,6 @@ I list here where I got the original ebuild's from, they may have change signifi
 * x11-drivers/
   * [OpenTabletDriver](https://wiki.gentoo.org/wiki/Project:GURU)
     * [0.6.5.0-r1](./x11-drivers/OpenTabletDriver/OpenTabletDriver-0.6.5.0-r1.ebuild)
+* dev-qt/
+  * qtvirtualkeyboard - From ::gentoo because it's masked and DaVinci needs it.
+    * [5.15.16](./dev-qt/qtvirtualkeyboard/qtvirtualkeyboard-5.15.16.ebuild)
