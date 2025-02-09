@@ -32,3 +32,8 @@ I list here where I got the original ebuild's from, they may have change signifi
 * dev-qt/
   * qtvirtualkeyboard - From ::gentoo because it's masked and DaVinci needs it.
     * [5.15.16](./dev-qt/qtvirtualkeyboard/qtvirtualkeyboard-5.15.16.ebuild)
+* sci-electronics/
+  * [litex](https://data.gpo.zugaina.org/pentoo/sci-electronics/litex/)
+    * [2024.12](./sci-electronics/litex/litex-2024.12.ebuild)
+  * [migen](https://data.gpo.zugaina.org/pentoo/sci-electronics/migen/)
+    * [0.9.2](./sci-electronics/migen/migen-0.9.2.ebuild)
