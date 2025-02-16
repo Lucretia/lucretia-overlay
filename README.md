@@ -5,6 +5,10 @@ I list here where I got the original ebuild's from, they may have change signifi
 * app-emulation/
   * [wineasio](https://gpo.zugaina.org/AJAX/Ebuild/13005980/View)
     * [1.2.0](./app-emulation/wineasio/wineasio-1.2.0.ebuild)
+* dev-ada/
+  * gprbuild
+    * [gprbuild-25.0.0-r3](./dev-ada/gprbuild/gprbuild-25.0.0-r3.ebuild)
+      * Patches the ::gentoo build with the correct version number.
 * dev-utils/
   * [nvidia-cuda-toolkit](https://github.com/gentoo/gentoo/pull/40389)
     * [12.8.0](./dev-util/nvidia-cuda-toolkit/nvidia-cuda-toolkit-12.8.0.ebuild)

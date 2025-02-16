@@ -1,0 +1,34 @@
+From 719c04e5df5eb0b2b9db58aa188b93b6c26f0e4e Mon Sep 17 00:00:00 2001
+From: "Luke A. Guest" <laguest@archeia.com>
+Date: Sun, 16 Feb 2025 13:00:31 +0000
+Subject: [PATCH] Fix version number and release type.
+
+---
+ gpr/src/gpr-version.ads | 4 ++--
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+
+diff --git a/gpr/src/gpr-version.ads b/gpr/src/gpr-version.ads
+index 4238bed..19c8ffc 100644
+--- a/gpr/src/gpr-version.ads
++++ b/gpr/src/gpr-version.ads
+@@ -30,7 +30,7 @@
+ 
+ package GPR.Version is
+ 
+-   Gpr_Version : constant String := "18.0w";
++   Gpr_Version : constant String := "25.0";
+    --  Static string identifying this version
+ 
+    Date : constant String := "19940713";
+@@ -40,7 +40,7 @@ package GPR.Version is
+    type Gnat_Build_Type is (Gnatpro, FSF, GPL);
+    --  See Get_Gnat_Build_Type below for the meaning of these values
+ 
+-   Build_Type : constant Gnat_Build_Type := Gnatpro;
++   Build_Type : constant Gnat_Build_Type := FSF;
+    --  Kind of GNAT Build:
+    --
+    --    FSF
+-- 
+2.45.3
+
