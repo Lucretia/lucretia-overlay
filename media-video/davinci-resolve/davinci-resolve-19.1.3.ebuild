@@ -37,15 +37,15 @@ RDEPEND="
 	${CONFLICT_PKG}
 "
 
+	# dev-qt/qtcore:5
+	# dev-qt/qtsvg:5
+	# dev-qt/qtwebengine:5
+	# dev-qt/qtwebsockets:5
+	# dev-qt/qtvirtualkeyboard:5
 DEPEND="
 	dev-libs/apr-util
 	app-arch/libarchive
 	dev-libs/openssl-compat
-	dev-qt/qtcore:5
-	dev-qt/qtsvg:5
-	dev-qt/qtwebengine:5
-	dev-qt/qtwebsockets:5
-	dev-qt/qtvirtualkeyboard:5
 	media-libs/gstreamer
 	media-libs/libpng
 	sys-fs/fuse[suid]
