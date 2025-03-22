@@ -10,6 +10,8 @@ I list here where I got the original ebuild's from, they may have change signifi
     * [gprbuild-25.0.0-r3](./dev-ada/gprbuild/gprbuild-25.0.0-r3.ebuild)
       * Patches the ::gentoo build with the correct version number.
 * dev-libs/
+  * cudnn
+    * [9.8.0.87](./dev-libs/cudnn/cudnn-9.8.0.87.ebuild)
   * libenet
     * [1.3.18](./dev-libs/libenet/libenet-1.3.18.ebuild) [untested]
     * [9999](./dev-libs/libenet/libenet-9999.ebuild)
