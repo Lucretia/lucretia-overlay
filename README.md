@@ -21,6 +21,9 @@ I list here where I got the original ebuild's from, they may have change signifi
 * media-libs/
   * [asiosdk](https://gpo.zugaina.org/AJAX/Ebuild/38403542/View)
     * [2.3.3](./media-libs/asiosdk/asiosdk-2.3.3.ebuild)
+* media-plugins/
+  * [distroav](https://data.gpo.zugaina.org/fem-overlay/media-plugins/distroav)
+    * [6.0.0](./media-plugins/distroav/distroav-6.0.0.ebuild)
 * media-sound/
   * ardour (+vst)
     * [8.6-r2](./media-sound/ardour/ardour-8.6-r2.ebuild)
