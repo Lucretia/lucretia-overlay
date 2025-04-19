@@ -33,6 +33,8 @@ I list here where I got the original ebuild's from, they may have change signifi
     * [19.1.3](./media-video/davinci-resolve/davinci-resolve-19.1.3.ebuild)
     * [20.0_beta1](./media-video/davinci-resolve/davinci-resolve-20.0_beta_rc1.ebuild)
       * See [Gentoo Bug](https://bugs.gentoo.org/718070).
+  * [ndi-sdk](https://data.gpo.zugaina.org/fem-overlay/media-video/ndi-sdk)
+    * [6.1.1](./media-video/ndi-sdk/ndi-sdk-6.1.1.ebuild)
 * net-misc/
   * [megasync-bin](https://mega.io/desktop#download)
     * [5.6.1](./net-misc/megasync-bin/megasync-bin-5.6.1.ebuild)
