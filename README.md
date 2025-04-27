@@ -53,3 +53,7 @@ I list here where I got the original ebuild's from, they may have change signifi
     * [2024.12](./sci-electronics/litex/litex-2024.12.ebuild)
   * [migen](https://data.gpo.zugaina.org/pentoo/sci-electronics/migen/)
     * [0.9.2](./sci-electronics/migen/migen-0.9.2.ebuild)
+* sci-physics/
+  * [bullet](./sci-physics/bullet/bullet-3.25.ebuild)
+    * See bug [#954779](https://bugs.gentoo.org/954779).
+
