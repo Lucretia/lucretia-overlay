@@ -1,7 +1,9 @@
 # Lucretia's Gentoo overlay
 
+Add the overlay to Gentoo with the following:
+
 ```bash
-# eselect repository add lucretia git https://github.com/Lucretia/lucretia-overlay
+# eselect repository add lucretia git https://github.com/Lucretia/lucretia-overlay.git
 ```
 
 I list here where I got the original ebuild's from, they may have change significantly since I grabbed them.
