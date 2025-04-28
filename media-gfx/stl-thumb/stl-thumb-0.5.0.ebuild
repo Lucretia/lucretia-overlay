@@ -244,3 +244,10 @@ KEYWORDS="~amd64"
 DEPEND="
     !media-gfx/stl-thumb-bin
 "
+
+src_unpack() {
+	# TODO: No idea what the difference is here. Either way, it fails just with different errors.
+	cargo_live_src_unpack
+	# cargo_src_unpack
+}
+
