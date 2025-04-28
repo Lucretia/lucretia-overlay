@@ -1,0 +1,59 @@
+# Copyright 1999-2025 Gentoo Authors
+# Distributed under the terms of the GNU General Public License v2
+
+EAPI=8
+
+# KDE_ORG_NAME="kdegraphics-thumbnailers"
+# KFMIN=6.9.0
+# QTMIN=6.7.2
+
+# CRATES="
+#     ahash@0.8.11"
+#     cgmath@ version = "0.18.0", features = ["mint"] }
+#     clap = "4.5.8"
+#     glium = "0.32"
+#     image = "0.25.1"
+#     libc = "0.2"
+#     log = "0.4.17"
+#     mint = "0.5.9"
+#     stderrlog = "0.6.0"
+#     stl_io = "0.8.0"
+#     tobj = "4.0.2"
+#     winit = "0.30.3"
+#     threemf = "0.6.0"
+# "
+
+declare -A GIT_CRATES=(
+	[glutin]='https://github.com/rust-windowing/glutin.git;07c461ee4642ba07b1bc01931f3996643d7f1835;%commit%'
+)
+
+inherit cargo # ecm gear.kde.org
+
+
+DESCRIPTION="Thumbnail generator for STL files"
+HOMEPAGE="https://github.com/unlimitedbacon/stl-thumb"
+
+SRC_URI="https://github.com/unlimitedbacon/stl-thumb/archive/v${PV}.tar.gz -> ${P}.tar.gz"
+
+LICENSE="MIT"
+SLOT="6"
+KEYWORDS="~amd64 ~arm64 ~loong ~ppc64 ~riscv ~x86"
+
+# DEPEND="
+# 	>=dev-qt/qtbase-${QTMIN}:6[gui]
+# 	>=kde-frameworks/kio-${KFMIN}:6
+# "
+# RDEPEND="${DEPEND}
+# 	!<kde-apps/thumbnailers-24.05.2-r1:6
+# "
+
+# src_configure() {
+# 	local mycmakeargs=(
+# 		-DDISABLE_BLENDER=ON
+# 		-DDISABLE_MOBIPOCKET=ON
+# 		-DCMAKE_DISABLE_FIND_PACKAGE_QMobipocket6=ON
+# 		-DCMAKE_DISABLE_FIND_PACKAGE_KExiv2Qt6=ON
+# 		-DCMAKE_DISABLE_FIND_PACKAGE_KDcrawQt6=ON
+# 	)
+# 	ecm_src_configure
+# }

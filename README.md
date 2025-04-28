@@ -25,6 +25,15 @@ I list here where I got the original ebuild's from, they may have change signifi
 * dev-utils/
   * [nvidia-cuda-toolkit](https://github.com/gentoo/gentoo/pull/40389)
     * [12.8.0](./dev-util/nvidia-cuda-toolkit/nvidia-cuda-toolkit-12.8.0.ebuild)
+* media-gfx/
+  * [stl-thumb](https://github.com/unlimitedbacon/stl-thumb)
+    * [0.5.0](./media-gfx/stl-thumb/stl-thumb-0.5.0.ebuild)
+      * This does not work, if you can fix it, please send a PR and I'll upload to gentoo bugs.
+  * [stl-thumb-bin](https://github.com/unlimitedbacon/stl-thumb)
+    * [0.5.0](./media-gfx/stl-thumb-bin/stl-thumb-bin-0.5.0.ebuild)
+      * This uses the prebuilt Ubuntu deb.
+  * [kio-stl-thumbnailer](https://github.com/unlimitedbacon/stl-thumb-kde)
+    * [0.5.0](./media-gfx/kio-stl-thumbnailer/kio-stl-thumbnailer-0.5.0.ebuild)
 * media-libs/
   * [asiosdk](https://gpo.zugaina.org/AJAX/Ebuild/38403542/View)
     * [2.3.3](./media-libs/asiosdk/asiosdk-2.3.3.ebuild)
