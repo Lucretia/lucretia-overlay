@@ -229,7 +229,7 @@ declare -A GIT_CRATES=(
 inherit cargo
 
 DESCRIPTION="A fast lightweight thumbnail generator for STL files"
-HOMEPAGE=""
+HOMEPAGE="https://github.com/unlimitedbacon/stl-thumb"
 SRC_URI="
 	https://github.com/unlimitedbacon/stl-thumb/archive/v${PV}.tar.gz -> ${P}.tar.gz
 	${CARGO_CRATE_URIS}

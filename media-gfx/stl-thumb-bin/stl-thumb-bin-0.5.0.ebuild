@@ -6,7 +6,7 @@ EAPI=8
 inherit unpacker xdg
 
 DESCRIPTION="A fast lightweight thumbnail generator for STL files"
-HOMEPAGE=""
+HOMEPAGE="https://github.com/unlimitedbacon/stl-thumb"
 SRC_URI="
 	https://github.com/unlimitedbacon/stl-thumb/releases/download/v0.5.0/stl-thumb_${PV}_amd64.deb
 "
