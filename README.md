@@ -29,6 +29,7 @@ I list here where I got the original ebuild's from, they may have change signifi
   * [stl-thumb](https://github.com/unlimitedbacon/stl-thumb)
     * [0.5.0](./media-gfx/stl-thumb/stl-thumb-0.5.0.ebuild)
       * This does not work, if you can fix it, please send a PR and I'll upload to gentoo bugs.
+      * See the end of this [gist](https://gist.github.com/Lucretia/74f58a92c5aab0e9f92a261be6f15edb).
   * [stl-thumb-bin](https://github.com/unlimitedbacon/stl-thumb)
     * [0.5.0](./media-gfx/stl-thumb-bin/stl-thumb-bin-0.5.0.ebuild)
       * This uses the prebuilt Ubuntu deb.
