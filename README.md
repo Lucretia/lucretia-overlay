@@ -1,5 +1,9 @@
 # Lucretia's Gentoo overlay
 
+```bash
+# eselect repository add lucretia git https://github.com/Lucretia/lucretia-overlay
+```
+
 I list here where I got the original ebuild's from, they may have change significantly since I grabbed them.
 
 * app-emulation/
