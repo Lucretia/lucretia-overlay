@@ -22,9 +22,6 @@ I list here where I got the original ebuild's from, they may have change signifi
   * libenet
     * [1.3.18](./dev-libs/libenet/libenet-1.3.18.ebuild) [untested]
     * [9999](./dev-libs/libenet/libenet-9999.ebuild)
-* dev-utils/
-  * [nvidia-cuda-toolkit](https://github.com/gentoo/gentoo/pull/40389)
-    * [12.8.0](./dev-util/nvidia-cuda-toolkit/nvidia-cuda-toolkit-12.8.0.ebuild)
 * media-gfx/
   * [stl-thumb](https://github.com/unlimitedbacon/stl-thumb)
     * [0.5.0](./media-gfx/stl-thumb/stl-thumb-0.5.0.ebuild)
