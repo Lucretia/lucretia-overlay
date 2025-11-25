@@ -76,6 +76,8 @@ I list here where I got the original ebuild's from, they may have change signifi
     * [2025.08](./sci-electronics/litedram/liteiclink-2025.08.ebuild)
   * [litepcie](https://gpo.zugaina.org/Overlays/pentoo/sci-electronics/litepcie)
     * [2025.08](./sci-electronics/litedram/litepcie-2025.08.ebuild)
+  * litehyperbus
+    * [2022.04](./sci-electronics/litehyperbus/litehyperbus-2022.04.ebuild)
   * litesata
     * [2025.08](./sci-electronics/litedram/litesata-2025.08.ebuild)
   * [litescope](https://gpo.zugaina.org/Overlays/pentoo/sci-electronics/litescope)

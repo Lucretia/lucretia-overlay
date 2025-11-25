@@ -10,7 +10,7 @@ LICENSE="BSD"
 SLOT="0"
 KEYWORDS="~amd64 ~arm ~arm64 ~x86"
 
-IUSE="dram eth iclink pcie sata scope sdcard"
+IUSE="dram eth iclink litehyperbus pcie sata scope sdcard"
 
 RDEPEND="sci-electronics/litex
     sci-electronics/litex-boards
@@ -18,6 +18,7 @@ RDEPEND="sci-electronics/litex
     dram? ( sci-electronics/litedram )
     eth? ( sci-electronics/liteeth )
     iclink? ( sci-electronics/liteiclink )
+    litehyperbus? ( sci-electronics/litehyperbus )
 	pcie? ( sci-electronics/litepcie )
 	sata? ( sci-electronics/litesata )
 	scope? ( sci-electronics/litescope )
