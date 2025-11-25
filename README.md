@@ -96,6 +96,8 @@ I list here where I got the original ebuild's from, they may have change signifi
     * [2025.08](./sci-electronics/litex-meta/litex-meta-2025.08.ebuild)
   * [migen](https://data.gpo.zugaina.org/pentoo/sci-electronics/migen/)
     * [0.9.2](./sci-electronics/migen/migen-0.9.2.ebuild)
+  * [yosys](https://gitweb.gentoo.org/repo/proj/guru.git)
+    * [0.59](./sci-electronics/yosys/yosys-0.59.ebuild)
 * sci-physics/
   * [bullet](./sci-physics/bullet/bullet-3.25.ebuild)
     * See bug [#954779](https://bugs.gentoo.org/954779).
