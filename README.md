@@ -65,8 +65,27 @@ I list here where I got the original ebuild's from, they may have change signifi
   * qtvirtualkeyboard - From ::gentoo because it's masked and DaVinci needs it.
     * [5.15.16](./dev-qt/qtvirtualkeyboard/qtvirtualkeyboard-5.15.16.ebuild)
 * sci-electronics/
+  * [litedram](https://gpo.zugaina.org/Overlays/pentoo/sci-electronics/litedram)
+    * [2025.08](./sci-electronics/litedram/litedram-2025.08.ebuild)
+  * [liteeth](https://gpo.zugaina.org/Overlays/pentoo/sci-electronics/liteeth)
+    * [2025.08](./sci-electronics/litedram/liteeth-2025.08.ebuild)
+  * liteiclink
+    * [2025.08](./sci-electronics/litedram/liteiclink-2025.08.ebuild)
+  * [litepcie](https://gpo.zugaina.org/Overlays/pentoo/sci-electronics/litepcie)
+    * [2025.08](./sci-electronics/litedram/litepcie-2025.08.ebuild)
+  * litesata
+    * [2025.08](./sci-electronics/litedram/litesata-2025.08.ebuild)
+  * [litescope](https://gpo.zugaina.org/Overlays/pentoo/sci-electronics/litescope)
+    * [2025.08](./sci-electronics/litedram/litescope-2025.08.ebuild)
+  * litesdcard
+    * [2025.08](./sci-electronics/litedram/litesdcard-2025.08.ebuild)
   * [litex](https://data.gpo.zugaina.org/pentoo/sci-electronics/litex/)
     * [2024.12](./sci-electronics/litex/litex-2024.12.ebuild)
+    * [2025.08](./sci-electronics/litex/litex-2025.08.ebuild)
+  * litex-meta
+    * For an easier install.
+    * Really need to find out how to make expansion variables, both components and boards should be expansions.
+    * Those components above which are not links are just straight copies of the other files found in Pentoo.
   * [migen](https://data.gpo.zugaina.org/pentoo/sci-electronics/migen/)
     * [0.9.2](./sci-electronics/migen/migen-0.9.2.ebuild)
 * sci-physics/
