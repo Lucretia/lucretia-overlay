@@ -89,6 +89,7 @@ I list here where I got the original ebuild's from, they may have change signifi
     * For an easier install.
     * Really need to find out how to make expansion variables, both components and boards should be expansions.
     * Those components above which are not links are just straight copies of the other files found in Pentoo.
+    * [2025.08](./sci-electronics/litex-meta/litex-meta-2025.08.ebuild)
   * [migen](https://data.gpo.zugaina.org/pentoo/sci-electronics/migen/)
     * [0.9.2](./sci-electronics/migen/migen-0.9.2.ebuild)
 * sci-physics/
