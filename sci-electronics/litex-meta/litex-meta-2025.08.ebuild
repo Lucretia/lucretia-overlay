@@ -13,6 +13,7 @@ KEYWORDS="~amd64 ~arm ~arm64 ~x86"
 IUSE="dram eth iclink pcie sata scope sdcard"
 
 RDEPEND="sci-electronics/litex
+    sci-electronics/litex-boards
 	sci-electronics/migen
     dram? ( sci-electronics/litedram )
     eth? ( sci-electronics/liteeth )

@@ -85,6 +85,8 @@ I list here where I got the original ebuild's from, they may have change signifi
   * [litex](https://data.gpo.zugaina.org/pentoo/sci-electronics/litex/)
     * [2024.12](./sci-electronics/litex/litex-2024.12.ebuild)
     * [2025.08](./sci-electronics/litex/litex-2025.08.ebuild)
+  * litex-boards
+    * [2025.08](./sci-electronics/litex-boards/litex-boards-2025.08.ebuild)
   * litex-meta
     * For an easier install.
     * Really need to find out how to make expansion variables, both components and boards should be expansions.
