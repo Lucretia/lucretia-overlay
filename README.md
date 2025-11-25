@@ -38,6 +38,8 @@ I list here where I got the original ebuild's from, they may have change signifi
 * media-plugins/
   * [distroav](https://data.gpo.zugaina.org/fem-overlay/media-plugins/distroav)
     * [6.0.0](./media-plugins/distroav/distroav-6.0.0.ebuild)
+    * [6.1.0](./media-plugins/distroav/distroav-6.1.0.ebuild)
+    * [6.1.1](./media-plugins/distroav/distroav-6.1.1.ebuild)
 * media-sound/
   * ardour (+vst)
     * [8.6-r2](./media-sound/ardour/ardour-8.6-r2.ebuild)
@@ -54,6 +56,7 @@ I list here where I got the original ebuild's from, they may have change signifi
       * See [Gentoo Bug](https://bugs.gentoo.org/718070).
   * [ndi-sdk](https://data.gpo.zugaina.org/fem-overlay/media-video/ndi-sdk)
     * [6.1.1](./media-video/ndi-sdk/ndi-sdk-6.1.1.ebuild)
+    * [6.2.1](./media-video/ndi-sdk/ndi-sdk-6.2.1.ebuild)
 * net-misc/
   * [megasync-bin](https://mega.io/desktop#download)
     * [5.6.1](./net-misc/megasync-bin/megasync-bin-5.6.1.ebuild)
