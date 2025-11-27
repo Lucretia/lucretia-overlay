@@ -22,6 +22,14 @@ I list here where I got the original ebuild's from, they may have change signifi
   * libenet
     * [1.3.18](./dev-libs/libenet/libenet-1.3.18.ebuild) [untested]
     * [9999](./dev-libs/libenet/libenet-9999.ebuild)
+* dev-python/
+  * pyghdl
+    * [5.1.1](./dev-python/pyghdl/pyghdl-5.1.1.ebuild)
+      * GHDL is already in Gentoo, why they don't have a use flag to enable this I do not know.
+  * pytooling
+    * [8.8.0](./dev-python/pytooling/pytooling-8.8.0.ebuild)
+  * pyvhdlmodel
+    * [0.33.0](./dev-python/pyvhdlmodel/pyvhdlmodel-0.33.0.ebuild)
 * media-gfx/
   * [stl-thumb](https://github.com/unlimitedbacon/stl-thumb)
     * [0.5.0](./media-gfx/stl-thumb/stl-thumb-0.5.0.ebuild)
