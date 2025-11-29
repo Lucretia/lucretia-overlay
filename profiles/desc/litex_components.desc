@@ -1,0 +1,8 @@
+dram - LITEX setting to build the dram package.
+eth - LITEX setting to build the ethernet package.
+iclink - LITEX setting to build the iclink package.
+litehyperbus - LITEX setting to build the litehyperbus package.
+pcie - LITEX setting to build the pcie package.
+sata - LITEX setting to build the sata package.
+scope - LITEX setting to build the oscilloscope package.
+sdcard - LITEX setting to build the sdcard package.

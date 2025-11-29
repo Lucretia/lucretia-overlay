@@ -1,0 +1,3 @@
+USE_EXPAND="LITEX"
+
+USE_EXPAND_VALUES_LITEX="dram eth iclink litehyperbus pcie sata scope sdcard"

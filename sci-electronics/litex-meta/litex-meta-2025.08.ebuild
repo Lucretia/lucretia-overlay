@@ -6,21 +6,25 @@ EAPI=8
 DESCRIPTION="Build your hardware, easily!"
 HOMEPAGE="https://github.com/enjoy-digital/litex"
 
-LICENSE="BSD"
+LICENSE="metapackage"
 SLOT="0"
 KEYWORDS="~amd64 ~arm ~arm64 ~x86"
 
-IUSE="dram eth iclink litehyperbus pcie sata scope sdcard"
+LITEX="dram eth iclink litehyperbus pcie sata scope sdcard"
+for component in ${LITEX}; do
+    IUSE_LITEX_COMPONENTS+=" litex_${component}"
+done
+IUSE="${IUSE_LITEX_COMPONENTS}"
 
 RDEPEND="sci-electronics/litex
     sci-electronics/litex-boards
 	sci-electronics/migen
-    dram? ( sci-electronics/litedram )
-    eth? ( sci-electronics/liteeth )
-    iclink? ( sci-electronics/liteiclink )
-    litehyperbus? ( sci-electronics/litehyperbus )
-	pcie? ( sci-electronics/litepcie )
-	sata? ( sci-electronics/litesata )
-	scope? ( sci-electronics/litescope )
-    sdcard? ( sci-electronics/litesdcard )
+    litex_dram? ( sci-electronics/litedram )
+    litex_eth? ( sci-electronics/liteeth )
+    litex_iclink? ( sci-electronics/liteiclink )
+    litex_litehyperbus? ( sci-electronics/litehyperbus )
+	litex_pcie? ( sci-electronics/litepcie )
+	litex_sata? ( sci-electronics/litesata )
+	litex_scope? ( sci-electronics/litescope )
+    litex_sdcard? ( sci-electronics/litesdcard )
 "
