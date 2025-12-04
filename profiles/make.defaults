@@ -1,3 +1,4 @@
-USE_EXPAND="LITEX"
+USE_EXPAND="LITEX FPGA_HDL"
 
 USE_EXPAND_VALUES_LITEX="dram eth iclink litehyperbus pcie sata scope sdcard"
+USE_EXPAND_VALUES_FPGA_HDL="vhdl"

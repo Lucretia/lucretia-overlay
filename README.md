@@ -114,3 +114,4 @@ I list here where I got the original ebuild's from, they may have change signifi
 
 For `litex-meta`, there is the LITEX expansion variable to pull in other packages, just set the LITEX variable inside your `/etc/portage/make.conf` and it emerging that package will merge the other packages.
 
+Likewise for 'fpga-meta', there the VHDL_HDL expansion variable, containing only vhdl thus far and only supports installing a few packages, these are from the `fpga-overlay` from the `eselect repository` command.
