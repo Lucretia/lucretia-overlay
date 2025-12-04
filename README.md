@@ -113,3 +113,4 @@ I list here where I got the original ebuild's from, they may have change signifi
 ## USE_EXPAND variables
 
 For `litex-meta`, there is the LITEX expansion variable to pull in other packages, just set the LITEX variable inside your `/etc/portage/make.conf` and it emerging that package will merge the other packages.
+
