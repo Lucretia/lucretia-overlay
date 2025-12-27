@@ -12,10 +12,6 @@ I list here where I got the original ebuild's from, they may have change signifi
 * app-emulation/
   * [wineasio](https://gpo.zugaina.org/AJAX/Ebuild/13005980/View)
     * [1.2.0](./app-emulation/wineasio/wineasio-1.2.0.ebuild)
-* dev-ada/
-  * gprbuild
-    * [gprbuild-25.0.0-r3](./dev-ada/gprbuild/gprbuild-25.0.0-r3.ebuild)
-      * Patches the ::gentoo build with the correct version number.
 * dev-libs/
   * cudnn
     * [9.8.0.87](./dev-libs/cudnn/cudnn-9.8.0.87.ebuild)
