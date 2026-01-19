@@ -52,6 +52,7 @@ I list here where I got the original ebuild's from, they may have change signifi
     * [8.10-r5](./media-sound/ardour/ardour-8.10-r5.ebuild)
     * [8.11-r1](./media-sound/ardour/ardour-8.11-r1.ebuild)
     * [8.12-r1](./media-sound/ardour/ardour-8.12-r1.ebuild)
+    * [8.12-r3](./media-sound/ardour/ardour-8.12-r3.ebuild)
 * media-video/
   * [davinci-resolve](https://bugs.gentoo.org/718070)
     * [19.1.2](./media-video/davinci-resolve/davinci-resolve-19.1.2.ebuild)
