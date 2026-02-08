@@ -44,15 +44,6 @@ I list here where I got the original ebuild's from, they may have change signifi
     * [6.0.0](./media-plugins/distroav/distroav-6.0.0.ebuild)
     * [6.1.0](./media-plugins/distroav/distroav-6.1.0.ebuild)
     * [6.1.1](./media-plugins/distroav/distroav-6.1.1.ebuild)
-* media-sound/
-  * ardour (+vst)
-    * [8.6-r2](./media-sound/ardour/ardour-8.6-r2.ebuild)
-    * [8.7-r1](./media-sound/ardour/ardour-8.7-r1.ebuild)
-    * [8.9-r1](./media-sound/ardour/ardour-8.9-r1.ebuild)
-    * [8.10-r5](./media-sound/ardour/ardour-8.10-r5.ebuild)
-    * [8.11-r1](./media-sound/ardour/ardour-8.11-r1.ebuild)
-    * [8.12-r1](./media-sound/ardour/ardour-8.12-r1.ebuild)
-    * [8.12-r3](./media-sound/ardour/ardour-8.12-r3.ebuild)
 * media-video/
   * [davinci-resolve](https://bugs.gentoo.org/718070)
     * [19.1.2](./media-video/davinci-resolve/davinci-resolve-19.1.2.ebuild)
