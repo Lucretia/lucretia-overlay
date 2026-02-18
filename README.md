@@ -7,7 +7,9 @@ Add the overlay to Gentoo with the following:
 # emaint sync -r lucretia
 ```
 
-I list here where I got the original ebuild's from, they may have change significantly since I grabbed them.
+I list here where I got the original ebuild's from, they may have change significantly since I grabbed them. Not all are
+copied from elsewhere, some I have created myself, so quality might not be the best, but they work. These will not 
+have an origin link in the package name, i.e. vst3sdk.
 
 * app-emulation/
   * [wineasio](https://gpo.zugaina.org/AJAX/Ebuild/13005980/View)
