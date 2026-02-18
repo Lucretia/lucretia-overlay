@@ -12,6 +12,8 @@ I list here where I got the original ebuild's from, they may have change signifi
 * app-emulation/
   * [wineasio](https://gpo.zugaina.org/AJAX/Ebuild/13005980/View)
     * [1.2.0](./app-emulation/wineasio/wineasio-1.2.0.ebuild)
+  * [winboat-bin](https://gpo.zugaina.org/AJAX/Ebuild/55910699/View)
+    * [0.9.0](./app-emulation/winboat-bin/winboat-bin-0.9.0.ebuild)
 * dev-libs/
   * cudnn
     * [9.8.0.87](./dev-libs/cudnn/cudnn-9.8.0.87.ebuild)
