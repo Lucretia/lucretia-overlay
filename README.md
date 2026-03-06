@@ -50,6 +50,8 @@ have an origin link in the package name, i.e. vst3sdk.
     * [6.0.0](./media-plugins/distroav/distroav-6.0.0.ebuild)
     * [6.1.0](./media-plugins/distroav/distroav-6.1.0.ebuild)
     * [6.1.1](./media-plugins/distroav/distroav-6.1.1.ebuild)
+  * surge-xt-bin
+    [1.3.4](./media-plugins/surgext-bin/surgext-bin-1.3.4.ebuild)
 * media-video/
   * [davinci-resolve](https://bugs.gentoo.org/718070)
     * [19.1.2](./media-video/davinci-resolve/davinci-resolve-19.1.2.ebuild)
