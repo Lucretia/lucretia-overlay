@@ -24,8 +24,9 @@ have an origin link in the package name, i.e. vst3sdk.
     * [9999](./dev-libs/libenet/libenet-9999.ebuild)
 * dev-python/
   * pyghdl
+    * GHDL is already in Gentoo, why they don't have a use flag to enable this I do not know.
     * [5.1.1](./dev-python/pyghdl/pyghdl-5.1.1.ebuild)
-      * GHDL is already in Gentoo, why they don't have a use flag to enable this I do not know.
+    * [6.0.0](./dev-python/pyghdl/pyghdl-6.0.0.ebuild)
   * pytooling
     * [8.8.0](./dev-python/pytooling/pytooling-8.8.0.ebuild)
   * pyvhdlmodel
