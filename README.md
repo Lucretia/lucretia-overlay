@@ -72,6 +72,13 @@ have an origin link in the package name, i.e. vst3sdk.
   * qtvirtualkeyboard - From ::gentoo because it's masked and DaVinci needs it.
     * [5.15.16](./dev-qt/qtvirtualkeyboard/qtvirtualkeyboard-5.15.16.ebuild)
 * sci-electronics/
+  * [litex](https://data.gpo.zugaina.org/pentoo/sci-electronics/litex/)
+    * [2024.12](./sci-electronics/litex/litex-2024.12.ebuild)
+    * [2025.08](./sci-electronics/litex/litex-2025.08.ebuild)
+    * [2025.08-r1](./sci-electronics/litex/litex-2025.08-r1.ebuild)
+  * litex-boards
+    * [2025.08](./sci-electronics/litex-boards/litex-boards-2025.08.ebuild)
+    * [2025.08-r1](./sci-electronics/litex-boards/litex-boards-2025.08-r1.ebuild)
   * [litedram](https://gpo.zugaina.org/Overlays/pentoo/sci-electronics/litedram)
     * [2025.08](./sci-electronics/litedram/litedram-2025.08.ebuild)
   * [liteeth](https://gpo.zugaina.org/Overlays/pentoo/sci-electronics/liteeth)
@@ -88,11 +95,6 @@ have an origin link in the package name, i.e. vst3sdk.
     * [2025.08](./sci-electronics/litedram/litescope-2025.08.ebuild)
   * litesdcard
     * [2025.08](./sci-electronics/litedram/litesdcard-2025.08.ebuild)
-  * [litex](https://data.gpo.zugaina.org/pentoo/sci-electronics/litex/)
-    * [2024.12](./sci-electronics/litex/litex-2024.12.ebuild)
-    * [2025.08](./sci-electronics/litex/litex-2025.08.ebuild)
-  * litex-boards
-    * [2025.08](./sci-electronics/litex-boards/litex-boards-2025.08.ebuild)
   * litex-meta
     * For an easier install.
     * Really need to find out how to make expansion variables, both components and boards should be expansions.
@@ -100,6 +102,7 @@ have an origin link in the package name, i.e. vst3sdk.
     * [2025.08](./sci-electronics/litex-meta/litex-meta-2025.08.ebuild)
   * [migen](https://data.gpo.zugaina.org/pentoo/sci-electronics/migen/)
     * [0.9.2](./sci-electronics/migen/migen-0.9.2.ebuild)
+    * [0.9.2-r1](./sci-electronics/migen/migen-0.9.2-r1.ebuild)
   * [yosys](https://gitweb.gentoo.org/repo/proj/guru.git)
     * [0.59](./sci-electronics/yosys/yosys-0.59.ebuild)
 * sci-physics/
