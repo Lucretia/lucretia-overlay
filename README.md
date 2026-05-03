@@ -73,8 +73,6 @@ have an origin link in the package name, i.e. vst3sdk.
   * qtvirtualkeyboard - From ::gentoo because it's masked and DaVinci needs it.
     * [5.15.16](./dev-qt/qtvirtualkeyboard/qtvirtualkeyboard-5.15.16.ebuild)
 * sci-electronics/
-  * [apycula](https://github.com/StephanvanSchaik/fpga-overlay/tree/main/sci-electronics/apycula/apycula-0.30.ebuild)
-    * [0.32](./sci-electronics/apycula/apycula-0.32.ebuild)
   * [litex](https://data.gpo.zugaina.org/pentoo/sci-electronics/litex/)
     * [2024.12](./sci-electronics/litex/litex-2024.12.ebuild)
     * [2025.08](./sci-electronics/litex/litex-2025.08.ebuild)
